@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TambahActivity">
+
+    <EditText
+        android:id="@+id/tambah_judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Judul Resep"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/tambah_bahan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Bahan"
+        android:inputType="textMultiLine"
+        android:lines="4" />
+
+    <EditText
+        android:id="@+id/tambah_langkah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Langkah"
+        android:inputType="textMultiLine"
+        android:lines="8" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/colorPrimary"
+        android:text="tambah"
+        android:onClick="tambah"
+        android:textColor="@android:color/white" />
+
+
+</LinearLayout>
